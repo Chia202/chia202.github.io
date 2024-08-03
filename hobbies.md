@@ -26,7 +26,6 @@ title: Hobbies
 
 [best universities in my hometown]:https://www.fzu.edu.cn/
 
-
 ## Past Hobbies
 
 I previously enjoyed long-distance running, [vlog making](https://space.bilibili.com/594030035), and computer game developing/playing. However, I have no time to do any of these things recently.
@@ -49,4 +48,3 @@ She is my love. Her name is Qbao (Q宝).
 <div class="calendly-inline-widget" data-url="https://calendly.com/lancecai/meet-with-lance" style="min-width:320px;height:630px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
-
