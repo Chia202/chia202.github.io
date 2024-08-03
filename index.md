@@ -4,8 +4,6 @@ layout: page
 
 # About Me
 
-![Image description](https://chia202.github.io/images/klee1.png)
-
 Here is **Z. Chia**.
 
 I am an incoming Ph.D. at ISBD @ RUC.
