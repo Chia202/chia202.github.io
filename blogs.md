@@ -4,6 +4,9 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
+I have not written any blogs yet. I am still a student. I will update this page when I have blogs.
+
+<!-- 
 ## Chinese Blogs
 
 ### 2024
@@ -50,4 +53,4 @@ title: Blogs
 
 <br>[![Star History Chart](https://api.star-history.com/svg?repos=GuangLun2000/GuangLun2000.github.io&type=Date)](https://star-history.com/#GuangLun2000/GuangLun2000.github.io&Date)
 
-<br>
+<br> -->
