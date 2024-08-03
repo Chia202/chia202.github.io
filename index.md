@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-![Image description](https://chia202.github.io/imgs/klee1.png)
+![Image description](https://chia202.github.io/images/klee1.png)
 
 Here is **Z. Chia**.
 
