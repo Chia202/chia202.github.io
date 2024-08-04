@@ -40,3 +40,9 @@ plt.show()
 ## Test tag for image
 
 ![Klee](https://chia202.github.io/images/klee1.png)
+
+## Test Footnote
+
+This is a test footnote[^1].
+
+[^1]: This is a test footnote.
