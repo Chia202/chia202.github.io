@@ -17,9 +17,12 @@ $$
 $$
 \begin{align}
 \int_{-\infty}^{\infty} e^{-x^2/2} dx = \sqrt{2\pi}
+\label{eq:gaussian}
 \tag{1}
 \end{align}
 $$
+
+We can refer to the formula $\eqref{eq:gaussian}$.
 
 ## Test tag for code
 
