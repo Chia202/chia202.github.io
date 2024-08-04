@@ -64,6 +64,8 @@ kramdown:
   #   coderay_bold_every: 10
   #   coderay_css: class
 
+kramdown:
+  math_engine: mathjax
 
 # disqus settings:
 disqus:
