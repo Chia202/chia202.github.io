@@ -1647,7 +1647,10 @@ html {
     margin-top: 1em;
     padding-top: 2em;
     padding-bottom: 3em;
-    background-color: #000000;
+    /* background-color: #000000; */
+    /* background-color: white; */
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .footer-wrap:before,

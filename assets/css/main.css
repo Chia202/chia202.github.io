@@ -2536,6 +2536,7 @@ button::-moz-focus-inner {
   height: 100%;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   background: black;
+  /* background: white; */
 }
 
 .mfp-iframe-holder .mfp-close {
