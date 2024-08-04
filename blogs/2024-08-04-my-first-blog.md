@@ -16,7 +16,7 @@ $$
 
 $$
 \begin{align}
-\int_{-\infty}^{\infty} \exp\{-\frac{x^2}2\} dx = \sqrt{2\pi}
+\int_{-\infty}^{\infty} \exp\left\{-\frac{x^2}2\right\} dx = \sqrt{2\pi}
 \label{eq:gaussian}
 \tag{1}
 \end{align}
