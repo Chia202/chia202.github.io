@@ -11,3 +11,29 @@ $$
 \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
 \end{align*}
 $$
+
+## Test tag for formula
+
+$$
+\begin{align}
+\int_{-\infty}^{\infty} e^{-x^2/2} dx = \sqrt{2\pi}
+\tag{1}
+\end{align}
+$$
+
+## Test tag for code
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(-10, 10, 100)
+y = np.exp(-x**2)
+
+plt.plot(x, y)
+plt.show()
+```
+
+## Test tag for image
+
+![Klee](https://chia202.github.io/images/klee1.png)
