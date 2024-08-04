@@ -22,7 +22,7 @@ $$
 \end{align}
 $$
 
-We can refer to the formula $\eqref{eq:gaussian}$.
+We can refer to the formula \eqref{eq:gaussian}.
 
 ## Test tag for code
 
