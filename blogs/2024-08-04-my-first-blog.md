@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/my-first-blog/index.html
+permalink: /blogs/2024-08-04-my-first-blog/index.html
 title: My First Blog
 ---
 
