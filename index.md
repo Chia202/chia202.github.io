@@ -1,8 +1,7 @@
 ---
 layout: page
+title: About Me
 ---
-
-# About Me
 
 Here is **Z. Chia**.
 
