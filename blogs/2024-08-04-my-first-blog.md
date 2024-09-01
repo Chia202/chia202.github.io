@@ -59,3 +59,10 @@ plt.show()
 This is a test footnote[^1].
 
 [^1]: This is a test footnote.
+
+## Test Table
+
+| Header 1 | Header 2 |
+|----------|----------|
+| Row 1    | Row 1    |
+| Row 2    | Row 2    |
