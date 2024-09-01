@@ -18,11 +18,19 @@ $$
 \begin{align}
 \int_{-\infty}^{\infty} \exp\left\{-\frac{x^2}2\right\} dx = \sqrt{2\pi}
 \label{eq:gaussian}
-\tag{1}
 \end{align}
 $$
 
-We can refer to the formula \eqref{eq:gaussian}.
+Gaussion integral is a very important formula. We can refer to the formula \eqref{eq:gaussian}.
+
+$$
+\begin{align}
+\mathbb E(X) = \int_{-\infty}^{\infty} x f(x) dx
+\label{eq:expectation}
+\end{align}
+$$
+
+The expectation of a random variable is defined as \eqref{eq:expectation}.
 
 ## Test tag for code
 

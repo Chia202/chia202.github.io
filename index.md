@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-Here is **Z. Chia**.
+Here is Xie Zhongming, a student at [Renmin University of China](https://www.ruc.edu.cn/).
 
 ## Academic Background
 
