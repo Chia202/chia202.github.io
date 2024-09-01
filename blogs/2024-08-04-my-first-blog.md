@@ -18,6 +18,7 @@ $$
 \begin{equation}
 \int_{-\infty}^{\infty} \exp\left\{-\frac{x^2}2\right\} dx = \sqrt{2\pi}
 \label{eq:gaussian}
+\tag{1}
 \end{equation}
 $$
 
@@ -27,6 +28,7 @@ $$
 \begin{equation}
 \mathbb E(X) = \int_{-\infty}^{\infty} x f(x) dx
 \label{eq:expectation}
+\tag{2}
 \end{equation}
 $$
 
