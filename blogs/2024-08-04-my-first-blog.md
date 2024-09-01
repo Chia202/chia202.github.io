@@ -7,9 +7,9 @@ title: My First Blog
 ## Test formula
 
 $$
-\begin{align*}
+\begin{align}
 \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
-\end{align*}
+\end{align}
 $$
 
 ## Test tag for formula
