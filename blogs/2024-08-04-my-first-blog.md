@@ -16,11 +16,13 @@ $$
 ## Test tag for formula
 
 $$
-\begin{align}
+\begin{equation}
+\begin{split}
 \int_{-\infty}^{\infty} \exp\left\{-\frac{x^2}2\right\} dx &= \int_{-\infty}^{\infty} \sqrt{2} \exp\left\{-\frac{x^2}2\right\} dx/\sqrt{2} \\
 &= \sqrt{2\pi} \\
+\end{split}
 \label{eq:gaussian}
-\end{align}
+\end{equation}
 $$
 
 Gaussion integral is a very important formula. We can refer to the formula \eqref{eq:gaussian}.
