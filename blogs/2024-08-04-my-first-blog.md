@@ -15,19 +15,19 @@ $$
 ## Test tag for formula
 
 $$
-\begin{align}
+\begin{equation}
 \int_{-\infty}^{\infty} \exp\left\{-\frac{x^2}2\right\} dx = \sqrt{2\pi}
 \label{eq:gaussian}
-\end{align}
+\end{equation}
 $$
 
 Gaussion integral is a very important formula. We can refer to the formula \eqref{eq:gaussian}.
 
 $$
-\begin{align}
+\begin{equation}
 \mathbb E(X) = \int_{-\infty}^{\infty} x f(x) dx
 \label{eq:expectation}
-\end{align}
+\end{equation}
 $$
 
 The expectation of a random variable is defined as \eqref{eq:expectation}.
