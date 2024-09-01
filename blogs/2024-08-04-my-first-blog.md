@@ -9,6 +9,7 @@ title: My First Blog
 $$
 \begin{align}
 \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+\label{eq:gaussian_unnormalized}
 \end{align}
 $$
 
