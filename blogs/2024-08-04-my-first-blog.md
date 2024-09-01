@@ -51,7 +51,8 @@ plt.show()
 
 ## Test tag for image
 
-![Klee](https://chia202.github.io/images/klee1.png)
+<!-- ![Klee](https://chia202.github.io/images/klee1.png) -->
+<div style="text-align: center;"> <img src="https://chia202.github.io/images/klee1.png" alt="Klee"> <p>Klee</p> </div>
 
 ## Test Footnote
 
