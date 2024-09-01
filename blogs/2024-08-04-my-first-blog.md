@@ -16,8 +16,8 @@ $$
 
 $$
 \begin{align}
-\int_{-\infty}^{\infty} \exp\left\{-\frac{x^2}2\right\} dx = \sqrt{2\pi}
-\tag{1}
+\int_{-\infty}^{\infty} \exp\left\{-\frac{x^2}2\right\} dx &= \int_{-\infty}^{\infty} \sqrt{2} \exp\left\{-\frac{x^2}2\right\} dx/\sqrt{2} \\
+&= \sqrt{2\pi} \\
 \label{eq:gaussian}
 \end{align}
 $$
@@ -27,7 +27,6 @@ Gaussion integral is a very important formula. We can refer to the formula \eqre
 $$
 \begin{align}
 \mathbb E(X) = \int_{-\infty}^{\infty} x f(x) dx
-\tag{2}
 \label{eq:expectation}
 \end{align}
 $$
