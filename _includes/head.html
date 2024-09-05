@@ -91,13 +91,36 @@ remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/klee.png">
 
 <!-- MathJax Configuration -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     window.MathJax = {
       tex: {
         tags: 'ams' // 自动编号公式
       }
     };
-  </script>
+  </script> -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams', // 自动编号公式
+        macros: {
+          E: "\\mathbb{E}", // 期望
+          Var: "\\mathrm{Var}", // 方差
+          Cov: "\\mathrm{Cov}", // 协方差
+          P: "\\mathbb{P}", // 概率
+          R: "\\mathbb{R}", // 实数集
+          N: "\\mathbb{N}", // 自然数集
+          Z: "\\mathbb{Z}", // 整数集
+          Q: "\\mathbb{Q}", // 有理数集
+          C: "\\mathbb{C}", // 复数集
+          d: "\\mathrm{d}", // 微分
+          argmax: "\\mathop{\\mathrm{arg\\,max}}", // argmax
+          argmin: "\\mathop{\\mathrm{arg\\,min}}", // argmin
+          bf: ["\\boldsymbol{#1}", 1], // 粗体
+          abs: ["\\left| #1 \\right|", 1] // 绝对值
+        }
+      }
+    };
+</script>
   
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
