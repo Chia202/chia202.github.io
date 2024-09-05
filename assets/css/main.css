@@ -2869,7 +2869,7 @@ screen and (max-height:300px) {
   #main article {
     display: inline;
     float: left;
-    width: 50%;
+    width: 70%;
     margin-left: 0%;
     margin-right: 0%;
   }
@@ -2877,7 +2877,7 @@ screen and (max-height:300px) {
   #index {
     display: inline;
     float: left;
-    width: 50%;
+    width: 70%;
     margin-left: 0%;
     margin-right: 0%;
   }
