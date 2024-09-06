@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /blogs/2024-09-05-RNN-zh/index.html
+date: 2024-09-05
 title: 循环神经网络
 ---
 
@@ -14,7 +15,7 @@ title: 循环神经网络
 
 $$
 \begin{align}
-y_t = f(\mathbf{x_t}, \mathbf{h_{t-1}}) \\
+y_t = f(\mathbf{x_t}, \mathbf{h_{t-1}})
 \label{eq:rnn}
 \end{align}
 $$
