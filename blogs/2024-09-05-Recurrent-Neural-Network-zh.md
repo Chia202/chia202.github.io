@@ -5,6 +5,17 @@ date: 2024-09-05
 title: 循环神经网络
 ---
 
+<script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']], // 行内公式
+        displayMath: [['$$', '$$'], ['\\[', '\\]']], // 块级公式
+        tags: 'ams' // 自动编号公式
+      }
+    };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 # 循环神经网络
 
 常见的神经网络结构有多层感知机（MLP）、卷积神经网络（CNN）和循环神经网络（RNN）。MLP 和 CNN 是相对简单的，而 RNN 在处理序列数据时有独特的优势、也是比较难理解的模型。本文将介绍 RNN 的基本概念和应用。
