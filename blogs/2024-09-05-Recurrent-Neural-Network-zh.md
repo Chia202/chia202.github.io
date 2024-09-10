@@ -35,26 +35,32 @@ h0 -> h1 -> h2 -> h3 -> h4 -> h5 -> ...
 ```
 
 图中 `h0` 是初始隐藏状态，`x1, x2, ..., x5` 是输入，`y1, y2, ..., y5` 是输出，对于每一个 RNN 单元，接受 $\mathbf{x}_t$ 和 $\mathbf{h}_{t-1}$，输出 $\mathbf{y}_t$ 和新的隐藏状态 $\mathbf{h}_t$，这个过程可以用下面的公式表示：
+
 $$
 \begin{align}
 \mathbf{h}_t = f(\mathbf{x}_t, \mathbf{h}_{t-1}) = \tanh\left(W_x\mathbf{x}_t + W_h \mathbf{h}_{t-1} + \mathbf{b}_h\right),
 \label{eq:rnn}
 \end{align}
 $$
+
 这里 $W_x \in \mathbb{R}^{H \times D}$ 和 $W_h \in \mathbb{R}^{H \times H}$ 是权重矩阵，$\mathbf{b}_h \in \mathbb{R}^H$ 是偏置向量，$f$ 是激活函数，常用的有 `tanh`、`ReLU` 等，我们这里选择了 `tanh` 来激活。新的隐藏状态 $\mathbf{h}_t$ 会被输入到下一个时刻的 RNN 单元中，同时也会被用来计算当前时刻的输出 $\mathbf{y}_t$：
+
 $$
 \begin{align}
 \mathbf{y}_t = W_y \mathbf{h}_t + \mathbf{b}_y,
 \label{eq:rnn_output}
 \end{align}
 $$
+
 其中 $W_y \in \mathbb{R}^{D \times H}$ 把 $\mathbf{h}_t$ 投影到输出空间 $\mathbb{R}^D$，然后我们再通过损失函数来计算预测值和真实值之间的差距，也就是我们希望 $y_t$ 能够尽可能接近真实值，比如在预测下一个词的问题中，当我们输入了前面的几个词，我们希期模型能够预测出下一个词，在此任务中，我们希望每个 $\mathbf{y}_t$ 能够接近真实的 $\mathbf{x}_{t+1}$，而在下面的小节图片标题生成中，我们希望输出序列 $(\mathbf{y}_1, \mathbf{y}_2, \cdots, \mathbf{y}_T)$ 能够接近真实的标题。损失函数的选择很多，比如均方误差（MSE）、softmax 交叉熵等，我们在这里介绍一个常用的损失函数——softmax 交叉熵损失函数，它的定义如下：
+
 $$
 \begin{align}
 \mathcal{L} = -\sum_{t=1}^T \log \frac{e^{\mathbf{y}_{t, x_{t+1}}}}{\sum_{j=1}^V e^{\mathbf{y}_{t, j}}},
 \label{eq:softmax}
 \end{align}
 $$
+
 softmax 的想法是希望 $t$ 时刻的输出 $\mathbf{y}_{t}$（请牢记 $\mathbf{y}_t$ 的维度为 $V$ 词库长度）能够接近真实的词 $x_{t+1}$，也就是 $\mathbf{y}_t$ 的第 $x_{t+1}$ 个元素的值越大越好，而其他元素的值越小越好，这样我们就可以通过最小化交叉熵损失函数来训练 RNN 模型。
 
 ## RNN 的构建、训练与预测
