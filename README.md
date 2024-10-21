@@ -1,6 +1,6 @@
 # Chia's Website
 
-Here is Chia.
+Here is Chia. You can visit my website at [https://chia202.github.io](https://chia202.github.io).
 
 ## Acknowledgements
 
